@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;   
+}
+/* banner */
+.nav-item a{
+    font-family:100;
+    font-weight:200;
+    color:#cfc0d5!important;
+    font-size:25px;
+}
+#banner ul li a:hover{
+    background-color: #643a79;
+    transform: scale(.8);
+    transition: 0.8s;
+}
+#banner{
+    background-color:#86509c;
+}
+.banner_header{
+    text-align:center;
+    font-size:37px;
+    font-weight:800;
+    color:#f7f0ea;
+    margin-top:150px;
+
+}
+.btn-secondary{
+    margin-bottom:110px;
+    height:60px;
+    width:35%;
+    background-color: #eb7d4a!important;
+    color:#fffff!important;   
+}
+/* service */
+#Service{
+    background-color:#17c1a4;
+}
+#Service.display-2{
+    color:#ffff;
+}
+/* our team */
+#our-team{
+    background-color:#e7f2f8;
+}
+#our-team img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    border: 8px solid silver;
+}
+.icon{
+    border-radius:50%;
+    margin:10px;
+    font-size:30px;
+}
+/* skill */
+#skill{
+    background-color:#ffffff;
+    margin-bottom:100px;
+}
+/* portfolio */
+#portfolio{
+    background-color:#ffdc98;
+}
+#portfolio img{
+    height:220px;
+    width:300px;
+}
+/**client**/
+#client{
+    background-color: #d74681;
+}
+#client img{
+    border-radius:50%;
+    height:150px;
+    width:150px;
+    border:2px solid black;
+}
+/** contact***/
+#contact{
+    background-color: #3c549a;
+}
+#contact .input::placeholder{
+    color:black;
+}
+#contact input::placeholder{
+    color:white;
+    
+}
+.btn-primary{
+    margin-bottom:110px;
+    height:60px;
+    width:35%;
+    background-color: #273a72!important;
+    color:#fffff!important;   
+}
+/**footer**/
+#footer{
+    background-color:#344b8e;
+}
+#footer .social{
+    height:30px;
+    width: 30px;
+    margin:20px;
+    color:white;
+    border-radius:50%;
+   
+}
+#footer .social:hover{
+    color: black;
+    transition: 0.5s;
+    transform: scale(.8);
+}
+#footer hr{
+    background-color:white;
+    
+}
