@@ -50,6 +50,7 @@
     width:200px;
     border-radius:50%;
     border: 8px solid silver;
+    object-fit:cover;
 }
 .icon{
     border-radius:50%;
@@ -78,6 +79,7 @@
     height:150px;
     width:150px;
     border:2px solid black;
+    object-fit:cover;
 }
 /** contact***/
 #contact{
